@@ -11,10 +11,10 @@ const PopularItem = ({ item }) => {
             </div>
             <div className='flex'>
                 <div>
-                    <h2>{name}</h2>
+                    <h2 className='font-xl font-bold'>{name}</h2>
                     <p>{recipe}</p>
                 </div>
-                <p className='text-orange-400'>$ {price}</p>
+                <p className='text-orange-400'>${price}</p>
 
             </div>
 
