@@ -7,7 +7,7 @@ const Navbar = () => {
         <li tabIndex={0}>
             <Link to={'/'}>Home</Link>
             <Link to={'/menu'}>Menu</Link>
-            <Link to={'/order'}>Order</Link>
+            <Link to={'/order/salad'}>Order</Link>
         </li>
 
     </>

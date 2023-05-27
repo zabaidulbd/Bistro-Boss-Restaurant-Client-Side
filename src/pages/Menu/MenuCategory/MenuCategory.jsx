@@ -15,7 +15,10 @@ const MenuCategory = ({ items, title }) => {
                 }
 
             </div>
-            <Link to={`/order/${title}`}><button className="btn btn-secondary">Button</button></Link>
+            {
+                title && <Link to={`/order/${title}`}><button className="btn btn-secondary">Button</button></Link>
+            }
+
 
 
         </>
